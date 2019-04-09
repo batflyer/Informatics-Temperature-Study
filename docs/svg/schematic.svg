@@ -1,0 +1,773 @@
+<svg class="bob" font-family="arial" font-size="14" height="656" width="520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="8" markerWidth="8" orient="auto" refX="4" refY="2" viewBox="0 0 8 4">
+<polygon class="fg_fill" points="0,0 0,4 8,2 0,0"/>
+</marker>
+<marker id="clear_triangle" markerHeight="10" markerWidth="10" orient="auto" refX="1" refY="7" viewBox="0 0 20 14">
+<polygon class="bg_fill fg_stroke" points="2,2 2,12 18,7 2,2"/>
+</marker>
+<marker id="circle" markerHeight="5" markerWidth="5" orient="auto" refX="10" refY="10" viewBox="0 0 20 20">
+<circle class="fg_fill" cx="10" cy="10" r="8"/>
+</marker>
+<marker id="square" markerHeight="5" markerWidth="5" orient="auto" refX="10" refY="10" viewBox="0 0 20 20">
+<rect class="fg_fill" height="20" width="20" x="0" y="0"/>
+</marker>
+<marker id="open_circle" markerHeight="10" markerWidth="10" orient="auto" refX="10" refY="10" viewBox="0 0 20 20">
+<circle class="bg_fill fg_stroke" cx="10" cy="10" r="4"/>
+</marker>
+<marker id="big_open_circle" markerHeight="20" markerWidth="20" orient="auto" refX="20" refY="20" viewBox="0 0 40 40">
+<circle class="bg_fill fg_stroke" cx="20" cy="20" r="6"/>
+</marker>
+</defs>
+<style type="text/css">
+
+rect.backdrop {
+    fill: white;
+}
+
+.fg_fill {
+    fill: black;
+}
+
+
+.bg_fill {
+    fill: white;
+}
+
+.fg_stroke {
+    stroke: black;
+    stroke-width: 2;
+}
+
+.no_fill {
+    fill: none;
+}
+
+.dashed {
+    stroke-dasharray: 5;
+}
+
+
+text{
+    fill: black;
+}
+
+line, path {
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    fill-opacity: 1;
+}
+
+
+
+
+tspan.head{
+    fill: none;
+    stroke: none;
+}
+    
+</style>
+<rect class="backdrop" height="656" width="520" x="0" y="0"/>
+<g>
+<line class="fg_stroke" x1="20" x2="20" y1="12" y2="148"/>
+<path class="fg_stroke no_fill" d="M 20 148 A 4 4 0 0 0 24 152"/>
+<path class="fg_stroke no_fill" d="M 24 8 A 4 4 0 0 0 20 12"/>
+</g>
+<g>
+<line class="fg_stroke" x1="24" x2="128" y1="8" y2="8"/>
+<path class="fg_stroke no_fill" d="M 132 12 A 4 4 0 0 0 128 8"/>
+</g>
+<g>
+<line class="fg_stroke" x1="24" x2="36" y1="152" y2="152"/>
+<line class="fg_stroke" marker-start="url(#circle)" x1="36" x2="36" y1="120" y2="152"/>
+<line class="fg_stroke" x1="36" x2="36" y1="152" y2="436"/>
+<line class="fg_stroke" x1="36" x2="52" y1="152" y2="152"/>
+<line class="fg_stroke" marker-start="url(#circle)" x1="52" x2="52" y1="120" y2="152"/>
+<line class="fg_stroke" x1="52" x2="52" y1="152" y2="404"/>
+<line class="fg_stroke" x1="52" x2="68" y1="152" y2="152"/>
+<line class="fg_stroke" marker-start="url(#circle)" x1="68" x2="68" y1="120" y2="152"/>
+<line class="fg_stroke" x1="68" x2="68" y1="152" y2="228"/>
+<line class="fg_stroke" x1="68" x2="84" y1="152" y2="152"/>
+<line class="fg_stroke" marker-start="url(#circle)" x1="84" x2="84" y1="120" y2="152"/>
+<line class="fg_stroke" x1="84" x2="84" y1="152" y2="232"/>
+<line class="fg_stroke" x1="84" x2="100" y1="152" y2="152"/>
+<line class="fg_stroke" x1="84" x2="84" y1="232" y2="408"/>
+<line class="fg_stroke" x1="84" x2="100" y1="232" y2="232"/>
+<line class="fg_stroke" x1="84" x2="84" y1="408" y2="440"/>
+<line class="fg_stroke" x1="84" x2="100" y1="408" y2="408"/>
+<line class="fg_stroke" x1="84" x2="84" y1="440" y2="596"/>
+<line class="fg_stroke" x1="84" x2="100" y1="440" y2="440"/>
+<line class="fg_stroke" marker-start="url(#circle)" x1="100" x2="100" y1="120" y2="152"/>
+<line class="fg_stroke" x1="100" x2="100" y1="152" y2="232"/>
+<line class="fg_stroke" x1="100" x2="128" y1="152" y2="152"/>
+<line class="fg_stroke" x1="100" x2="100" y1="232" y2="408"/>
+<line class="fg_stroke" x1="100" x2="512" y1="232" y2="232"/>
+<line class="fg_stroke" x1="100" x2="100" y1="408" y2="440"/>
+<line class="fg_stroke" x1="100" x2="164" y1="408" y2="408"/>
+<line class="fg_stroke" x1="100" x2="100" y1="440" y2="564"/>
+<line class="fg_stroke" x1="100" x2="164" y1="440" y2="440"/>
+<line class="fg_stroke" x1="164" x2="164" y1="268" y2="408"/>
+<line class="fg_stroke" x1="164" x2="164" y1="408" y2="440"/>
+<line class="fg_stroke" x1="164" x2="188" y1="408" y2="408"/>
+<line class="fg_stroke" x1="164" x2="164" y1="440" y2="568"/>
+<line class="fg_stroke" x1="164" x2="188" y1="440" y2="440"/>
+<line class="fg_stroke" x1="164" x2="164" y1="568" y2="600"/>
+<line class="fg_stroke" x1="164" x2="188" y1="568" y2="568"/>
+<line class="fg_stroke" x1="164" x2="164" y1="600" y2="644"/>
+<line class="fg_stroke" x1="164" x2="188" y1="600" y2="600"/>
+<line class="fg_stroke" x1="188" x2="188" y1="348" y2="408"/>
+<line class="fg_stroke" x1="188" x2="188" y1="408" y2="440"/>
+<line class="fg_stroke" marker-end="url(#circle)" x1="188" x2="204" y1="408" y2="408"/>
+<line class="fg_stroke" x1="188" x2="188" y1="440" y2="484"/>
+<line class="fg_stroke" marker-end="url(#circle)" x1="188" x2="204" y1="440" y2="440"/>
+<line class="fg_stroke" x1="188" x2="188" y1="508" y2="568"/>
+<line class="fg_stroke" x1="188" x2="188" y1="568" y2="600"/>
+<line class="fg_stroke" marker-end="url(#circle)" x1="188" x2="204" y1="568" y2="568"/>
+<line class="fg_stroke" x1="188" x2="188" y1="600" y2="612"/>
+<line class="fg_stroke" marker-end="url(#circle)" x1="188" x2="204" y1="600" y2="600"/>
+<path class="fg_stroke no_fill" d="M 36 436 A 4 4 0 0 0 40 440"/>
+<path class="fg_stroke no_fill" d="M 52 404 A 4 4 0 0 0 56 408"/>
+<path class="fg_stroke no_fill" d="M 68 228 A 4 4 0 0 0 72 232"/>
+<path class="fg_stroke no_fill" d="M 84 596 A 4 4 0 0 0 88 600"/>
+<path class="fg_stroke no_fill" d="M 100 564 A 4 4 0 0 0 104 568"/>
+<path class="fg_stroke no_fill" d="M 128 152 A 4 4 0 0 0 132 148"/>
+<path class="fg_stroke no_fill" d="M 164 644 A 4 4 0 0 0 168 648"/>
+<path class="fg_stroke no_fill" d="M 168 264 A 4 4 0 0 0 164 268"/>
+<path class="fg_stroke no_fill" d="M 188 484 A 4 4 0 0 0 192 488"/>
+<path class="fg_stroke no_fill" d="M 188 612 A 4 4 0 0 0 192 616"/>
+<path class="fg_stroke no_fill" d="M 192 344 A 4 4 0 0 0 188 348"/>
+<path class="fg_stroke no_fill" d="M 192 504 A 4 4 0 0 0 188 508"/>
+<path class="fg_stroke no_fill" d="M 516 236 A 4 4 0 0 0 512 232"/>
+</g>
+<g>
+<line class="fg_stroke" x1="40" x2="84" y1="440" y2="440"/>
+</g>
+<g>
+<line class="fg_stroke" x1="48" x2="104" y1="88" y2="88"/>
+</g>
+<g>
+<line class="fg_stroke" x1="56" x2="84" y1="408" y2="408"/>
+</g>
+<g>
+<line class="fg_stroke" x1="72" x2="84" y1="232" y2="232"/>
+</g>
+<g>
+<line class="fg_stroke" x1="88" x2="164" y1="600" y2="600"/>
+</g>
+<g>
+<line class="fg_stroke" x1="104" x2="164" y1="568" y2="568"/>
+</g>
+<g>
+<line class="fg_stroke" x1="132" x2="132" y1="12" y2="16"/>
+<line class="fg_stroke" x1="132" x2="132" y1="16" y2="32"/>
+<line class="fg_stroke" x1="132" x2="132" y1="32" y2="48"/>
+<line class="fg_stroke" x1="132" x2="132" y1="48" y2="148"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="156" x2="168" y1="72" y2="72"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="156" x2="168" y1="88" y2="88"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="156" x2="168" y1="104" y2="104"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="156" x2="168" y1="120" y2="120"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="156" x2="168" y1="136" y2="136"/>
+</g>
+<g>
+<line class="fg_stroke" x1="168" x2="488" y1="264" y2="264"/>
+<path class="fg_stroke no_fill" d="M 492 268 A 4 4 0 0 0 488 264"/>
+</g>
+<g>
+<line class="fg_stroke" x1="168" x2="488" y1="648" y2="648"/>
+<path class="fg_stroke no_fill" d="M 488 648 A 4 4 0 0 0 492 644"/>
+</g>
+<g>
+<line class="fg_stroke" x1="192" x2="216" y1="344" y2="344"/>
+<path class="fg_stroke no_fill" d="M 220 348 A 4 4 0 0 0 216 344"/>
+</g>
+<g>
+<line class="fg_stroke" x1="192" x2="216" y1="488" y2="488"/>
+<path class="fg_stroke no_fill" d="M 216 488 A 4 4 0 0 0 220 484"/>
+</g>
+<g>
+<line class="fg_stroke" x1="192" x2="216" y1="504" y2="504"/>
+<path class="fg_stroke no_fill" d="M 220 508 A 4 4 0 0 0 216 504"/>
+</g>
+<g>
+<line class="fg_stroke" x1="192" x2="216" y1="616" y2="616"/>
+<path class="fg_stroke no_fill" d="M 216 616 A 4 4 0 0 0 220 612"/>
+</g>
+<g>
+<line class="fg_stroke" x1="220" x2="220" y1="348" y2="484"/>
+</g>
+<g>
+<line class="fg_stroke" x1="220" x2="220" y1="508" y2="612"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="360" y2="360"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="376" y2="376"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="392" y2="392"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="408" y2="408"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="424" y2="424"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="440" y2="440"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="456" y2="456"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="472" y2="472"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="520" y2="520"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="536" y2="536"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="552" y2="552"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="568" y2="568"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="584" y2="584"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="232" x2="244" y1="600" y2="600"/>
+</g>
+<g>
+<line class="fg_stroke" x1="308" x2="308" y1="472" y2="488"/>
+<line class="fg_stroke" x1="308" x2="324" y1="472" y2="472"/>
+<line class="fg_stroke" x1="308" x2="308" y1="488" y2="504"/>
+<line class="fg_stroke" x1="308" x2="324" y1="488" y2="488"/>
+<line class="fg_stroke" x1="308" x2="308" y1="504" y2="520"/>
+<line class="fg_stroke" x1="308" x2="324" y1="504" y2="504"/>
+<line class="fg_stroke" x1="308" x2="324" y1="520" y2="520"/>
+<line class="fg_stroke" x1="324" x2="324" y1="472" y2="488"/>
+<line class="fg_stroke" x1="324" x2="340" y1="472" y2="472"/>
+<line class="fg_stroke" x1="324" x2="324" y1="488" y2="504"/>
+<line class="fg_stroke" x1="324" x2="340" y1="488" y2="488"/>
+<line class="fg_stroke" x1="324" x2="324" y1="504" y2="520"/>
+<line class="fg_stroke" x1="324" x2="340" y1="504" y2="504"/>
+<line class="fg_stroke" x1="324" x2="340" y1="520" y2="520"/>
+<line class="fg_stroke" x1="340" x2="340" y1="472" y2="488"/>
+<line class="fg_stroke" x1="340" x2="356" y1="472" y2="472"/>
+<line class="fg_stroke" x1="340" x2="340" y1="488" y2="504"/>
+<line class="fg_stroke" x1="340" x2="356" y1="488" y2="488"/>
+<line class="fg_stroke" x1="340" x2="340" y1="504" y2="520"/>
+<line class="fg_stroke" x1="340" x2="356" y1="504" y2="504"/>
+<line class="fg_stroke" x1="340" x2="356" y1="520" y2="520"/>
+<line class="fg_stroke" x1="356" x2="356" y1="472" y2="488"/>
+<line class="fg_stroke" x1="356" x2="356" y1="488" y2="504"/>
+<line class="fg_stroke" x1="356" x2="356" y1="504" y2="520"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="312" y2="312"/>
+<line class="fg_stroke" x1="416" x2="424" y1="312" y2="312"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="328" y2="328"/>
+<line class="fg_stroke" x1="416" x2="424" y1="328" y2="328"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="344" y2="344"/>
+<line class="fg_stroke" x1="416" x2="424" y1="344" y2="344"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="360" y2="360"/>
+<line class="fg_stroke" x1="416" x2="424" y1="360" y2="360"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="376" y2="376"/>
+<line class="fg_stroke" x1="416" x2="424" y1="376" y2="376"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="392" y2="392"/>
+<line class="fg_stroke" x1="416" x2="424" y1="392" y2="392"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="408" y2="408"/>
+<line class="fg_stroke" x1="416" x2="424" y1="408" y2="408"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="424" y2="424"/>
+<line class="fg_stroke" x1="416" x2="424" y1="424" y2="424"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="440" y2="440"/>
+<line class="fg_stroke" x1="416" x2="424" y1="440" y2="440"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="456" y2="456"/>
+<line class="fg_stroke" x1="416" x2="424" y1="456" y2="456"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="504" y2="504"/>
+<line class="fg_stroke" x1="416" x2="424" y1="504" y2="504"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="520" y2="520"/>
+<line class="fg_stroke" x1="416" x2="424" y1="520" y2="520"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="536" y2="536"/>
+<line class="fg_stroke" x1="416" x2="424" y1="536" y2="536"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="552" y2="552"/>
+<line class="fg_stroke" x1="416" x2="424" y1="552" y2="552"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="568" y2="568"/>
+<line class="fg_stroke" x1="416" x2="424" y1="568" y2="568"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="584" y2="584"/>
+<line class="fg_stroke" x1="416" x2="424" y1="584" y2="584"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="600" y2="600"/>
+<line class="fg_stroke" x1="416" x2="424" y1="600" y2="600"/>
+</g>
+<g>
+<line class="fg_stroke" marker-end="url(#triangle)" x1="416" x2="412" y1="616" y2="616"/>
+<line class="fg_stroke" x1="416" x2="424" y1="616" y2="616"/>
+</g>
+<g>
+<line class="fg_stroke" x1="436" x2="436" y1="284" y2="468"/>
+<path class="fg_stroke no_fill" d="M 436 468 A 4 4 0 0 0 440 472"/>
+<path class="fg_stroke no_fill" d="M 440 280 A 4 4 0 0 0 436 284"/>
+</g>
+<g>
+<line class="fg_stroke" x1="436" x2="436" y1="492" y2="628"/>
+<path class="fg_stroke no_fill" d="M 436 628 A 4 4 0 0 0 440 632"/>
+<path class="fg_stroke no_fill" d="M 440 488 A 4 4 0 0 0 436 492"/>
+</g>
+<g>
+<line class="fg_stroke" x1="440" x2="464" y1="280" y2="280"/>
+<path class="fg_stroke no_fill" d="M 468 284 A 4 4 0 0 0 464 280"/>
+</g>
+<g>
+<line class="fg_stroke" x1="440" x2="464" y1="472" y2="472"/>
+<path class="fg_stroke no_fill" d="M 464 472 A 4 4 0 0 0 468 468"/>
+</g>
+<g>
+<line class="fg_stroke" x1="440" x2="464" y1="488" y2="488"/>
+<path class="fg_stroke no_fill" d="M 468 492 A 4 4 0 0 0 464 488"/>
+</g>
+<g>
+<line class="fg_stroke" x1="440" x2="464" y1="632" y2="632"/>
+<path class="fg_stroke no_fill" d="M 464 632 A 4 4 0 0 0 468 628"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#circle)" x1="452" x2="468" y1="328" y2="328"/>
+<line class="fg_stroke" x1="468" x2="468" y1="284" y2="328"/>
+<line class="fg_stroke" x1="468" x2="468" y1="328" y2="468"/>
+<line class="fg_stroke" x1="468" x2="492" y1="328" y2="328"/>
+<line class="fg_stroke" x1="492" x2="492" y1="268" y2="328"/>
+<line class="fg_stroke" x1="492" x2="492" y1="328" y2="644"/>
+<line class="fg_stroke" x1="492" x2="512" y1="328" y2="328"/>
+<path class="fg_stroke no_fill" d="M 512 328 A 4 4 0 0 0 516 324"/>
+</g>
+<g>
+<line class="fg_stroke" x1="468" x2="468" y1="492" y2="628"/>
+</g>
+<g>
+<line class="fg_stroke" x1="516" x2="516" y1="236" y2="324"/>
+</g>
+<g>
+<text class="fg_fill" x="33" y="460">
+Black
+</text>
+</g>
+<g>
+<text class="fg_fill" x="49" y="76">
+TMP102
+</text>
+</g>
+<g>
+<text class="fg_fill" x="49" y="428">
+Red
+</text>
+</g>
+<g>
+<text class="fg_fill" x="89" y="620">
+Green
+</text>
+</g>
+<g>
+<text class="fg_fill" x="113" y="124">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="121" y="556">
+Blue
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="76">
+GND
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="92">
+1.4-3.6V
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="108">
+SDA
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="124">
+XCL
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="140">
+ALT
+</text>
+</g>
+<g>
+<text class="fg_fill" x="177" y="156">
+ADD0
+</text>
+</g>
+<g>
+<text class="fg_fill" x="193" y="300">
+RedBoard
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="364">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="380">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="396">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="428">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="460">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="476">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="524">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="540">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="556">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="201" y="588">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="249" y="76">
+(left)
+</text>
+</g>
+<g>
+<text class="fg_fill" x="249" y="156">
+(right)
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="380">
+IOREF
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="396">
+RESET
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="412">
+3.3V
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="428">
+5V
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="444">
+GND
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="460">
+GND
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="476">
+VIN
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="524">
+A0
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="540">
+A1
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="556">
+A2
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="572">
+A3
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="588">
+A4
+</text>
+</g>
+<g>
+<text class="fg_fill" x="257" y="604">
+A5
+</text>
+</g>
+<g>
+<text class="fg_fill" x="361" y="348">
+AREF
+</text>
+</g>
+<g>
+<text class="fg_fill" x="369" y="316">
+SCL
+</text>
+</g>
+<g>
+<text class="fg_fill" x="369" y="332">
+SDA
+</text>
+</g>
+<g>
+<text class="fg_fill" x="369" y="364">
+GND
+</text>
+</g>
+<g>
+<text class="fg_fill" x="369" y="412">
+~11
+</text>
+</g>
+<g>
+<text class="fg_fill" x="369" y="428">
+~10
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="380">
+13
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="396">
+12
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="444">
+~9
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="524">
+~6
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="540">
+~5
+</text>
+</g>
+<g>
+<text class="fg_fill" x="377" y="572">
+~3
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="460">
+8
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="508">
+7
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="556">
+4
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="588">
+2
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="604">
+1
+</text>
+</g>
+<g>
+<text class="fg_fill" x="385" y="620">
+0
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="316">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="348">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="364">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="380">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="396">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="412">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="428">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="444">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="460">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="508">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="524">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="540">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="556">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="572">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="588">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="604">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="449" y="620">
+o
+</text>
+</g>
+<g>
+<text class="fg_fill" x="465" y="220">
+Yellow
+</text>
+</g>
+<g>
+<circle class="fg_stroke no_fill" cx="44" cy="40" r="12"/>
+</g>
+<g>
+<circle class="fg_stroke no_fill" cx="108" cy="40" r="12"/>
+</g>
+<g>
+<line class="fg_stroke" marker-start="url(#open_circle)" x1="156" x2="168" y1="152" y2="152"/>
+</g>
+</svg>
